@@ -1,0 +1,9 @@
+.footer__block{
+  width: 30%;
+}
+
+.footer {
+  background-color: #27273e;
+  color: #fff;
+  padding: 7px 0;
+}

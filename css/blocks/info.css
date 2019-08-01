@@ -1,0 +1,18 @@
+.info {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.info__link {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.info__text-drop {
+  display: block;
+}
+
+.info__link--name {
+  text-decoration: none;
+  font-weight: bold;
+}

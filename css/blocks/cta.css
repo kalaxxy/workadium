@@ -1,0 +1,18 @@
+.cta {
+  background: #27273e url('../../img/pattern.png');
+  margin-bottom: 57px;
+  padding: 30px 10px;
+}
+
+.cta__text--pink {
+  color: #c5206d;
+  font-weight: bold;
+}
+
+.cta__text {
+  max-width: 646px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}

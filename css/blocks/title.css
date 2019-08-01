@@ -1,0 +1,19 @@
+.section-title {
+  font-size: 49px;
+  color: #221f1f;
+  font-weight: bold;
+  line-height: 0.8;
+  margin: 0 0 59px 10px;
+}
+
+.section-title--news {
+  margin-bottom: 30px;
+}
+
+.section-title--price {
+  margin-bottom: 50px;
+}
+
+.section-title--form {
+  margin: 0 0 21px;
+}

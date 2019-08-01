@@ -1,0 +1,124 @@
+.form-section {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+.form {
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  padding: 50px 10% 8px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.form__block {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__label {
+  display: block;
+  color: #221f1f;
+  margin-bottom: 6px;
+}
+
+.form__input {
+  padding: 12px 9px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+  border: 1px solid transparent;
+  color: rgba(34, 31, 31, 0.502);
+}
+
+.form__input:focus {
+  border-color: #ec1e79;
+}
+
+.form__input--textarea {
+  height: 90px;
+  resize: none;
+}
+
+.form__block-wrap {
+  display: flex;
+}
+
+.form__radio {
+  display: flex;
+  margin-right: 45px;
+}
+
+.form__radio-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.form__radio-custom {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(#fff, #eee);
+  margin-right: 10px;
+}
+
+.form__radio-custom:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ec1e79;
+  opacity: 0;
+}
+
+.form__radio-input:checked + .form__radio-custom {
+  background: linear-gradient(to top, #fff, #eee);
+  transition: .7s;
+}
+
+.form__radio-input:checked + .form__radio-custom:before {
+  opacity: 1;
+  transition: .7s;
+}
+
+.form__radio-input:checked + .form__radio-custom + .form__radio-text {
+  color: #ec1e79;
+  transition: .7s;
+} /*почему без форм__радио-кастом не работает */
+
+.form__submit {
+  padding: 16px 19px;
+  border-radius: 3px;
+  background-color: #27273e;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form__submit:hover {
+  background-color: #ec1e79;
+  transition: .6s;
+}
+
+.form__block-button {
+  margin-top: -8px;
+  text-align: right
+}

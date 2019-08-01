@@ -1,0 +1,29 @@
+.partners {
+  margin-bottom: 57px;
+  text-align: center;
+  border: 1px solid #e8e9ed;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.partners__title {
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.partners__item {
+  min-width: 250px;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
+}

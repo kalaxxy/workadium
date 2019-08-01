@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/subset-GothamPro.woff2') format('woff2'),
+        url('fonts/subset-GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/subset-GothamPro-Bold.woff2') format('woff2'),
+        url('./fonts/subset-GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/subset-GothamPro-LightItalic.woff2') format('woff2'),
+        url('./fonts/subset-GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/subset-GothamPro-Light.woff2') format('woff2'),
+        url('./fonts/subset-GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/subset-Roboto-Bold.woff2') format('woff2'),
+        url('./fonts/subset-Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('./fonts/subset-Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/subset-Roboto-Light.woff2') format('woff2'),
+        url('./fonts/subset-Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/subset-OpenSans-Regular.woff2') format('woff2'),
+        url('./fonts/subset-OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/subset-OpenSans-Bold.woff2') format('woff2'),
+        url('./fonts/subset-OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

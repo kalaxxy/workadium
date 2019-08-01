@@ -1,0 +1,121 @@
+.menu__item {
+  margin-right: 90px;
+}
+
+.menu__text {
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ec1e79;
+  position: relative;
+}
+
+.menu__text:before,
+.menu__text:after,
+.menu__text--active.menu__text:before {
+  content: "";
+  position: absolute;
+  margin-left: -30px;
+  background: url('../../img/spritesheet.png') no-repeat;
+  top: 0;
+  left: 0;
+  transition: .4s;
+}
+
+.menu__text:hover {
+  color: #000;
+  transition: .4s;
+}
+
+.menu__text:after {
+  opacity: 0;
+}
+
+.menu__text:hover:before {
+  opacity: 0;
+}
+.menu__text:hover:after {
+  opacity: 1;
+}
+
+.menu__text--active.menu__text:after {
+  opacity: 1;
+}
+
+.menu__text--main:before,
+.menu__dark .menu__text--active.menu__text--main:before,
+.menu__dark .menu__text--active.menu__text--main:after {
+  width: 18px;
+  height: 17px;
+  background-position: -256px -7px;
+}
+
+.menu__text--reviews:before,
+.menu__dark .menu__text--reviews:after {
+  width: 20px;
+  height: 18px;
+  background-position: -101px -7px;
+}
+
+.menu__text--price:before,
+.menu__dark .menu__text--price:after {
+  width: 19px;
+  height: 16px;
+  background-position: -372px -7px;
+}
+
+.menu__text--main:after,
+.menu__text--active.menu__text--main:before {
+  width: 18px;
+  height: 17px;
+  background-position: -224px -7px;
+}
+
+.menu__text--reviews:after,
+.menu__text--active.menu__text--reviews:before {
+  width: 20px;
+  height: 18px;
+  background-position: -67px -7px;
+}
+
+.menu__text--price:after,
+.menu__text--active.menu__text--price:before {
+  width: 19px;
+  height: 16px;
+  background-position: -339px -7px;
+}
+
+.menu__text--active {
+  color: #000
+}
+
+
+.menu__horizontal {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.menu__dark .menu__text{
+  color: #fff;
+}
+
+.menu__dark .menu__text:hover,
+.menu__dark .menu__text--active {
+  color: #ec1e79;
+}
+
+.menu__dark .menu__text--reviews:before {
+  width: 20px;
+  height: 18px;
+  background-position: -135px -7px;
+}
+
+.menu__dark .menu__text--price:before {
+  width: 19px;
+  height: 16px;
+  background-position: -405px -7px;
+}

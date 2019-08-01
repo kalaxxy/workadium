@@ -1,0 +1,58 @@
+.wrapper-intro {
+  background: url('../../img/bg_intro.jpg') center center / cover no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  color: #ec1e79;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.intro__content {
+  display: block;
+  opacity: 0;
+  animation: rotate .5s 1s; 
+  animation-fill-mode: forwards;
+}
+
+.intro__logo {
+  margin-bottom: 28px;
+}
+
+.intro__link {
+  display: block;
+  padding: 14px 23px;
+  border: 3px solid;
+  transition: .3s;
+}
+
+.intro__content:hover .intro__link{
+  background-color: #ec1e79;
+  color: #fff;
+  border-color: #ec1e79;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: scale(.5) rotate(35deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}

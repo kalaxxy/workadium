@@ -1,0 +1,72 @@
+.social {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__title {
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.social__list {
+  display: flex;  
+  justify-content: center;
+}
+
+.social__item,
+.social__link {
+  width: 20px;
+  height: 20px;
+}
+
+.social__item {
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.social__item:hover {
+  background-color: #ec1e79;
+}
+
+.social__link {
+  background: url('../../img/spritesheet.png') no-repeat;
+  margin: 0 auto;
+}
+
+.social__link--vk {
+  width: 12px;
+  height: 7px;
+  background-position: -313px -7px;
+}
+
+.social__link--fb {
+  width: 6px;
+  height: 13px;
+  background-position: -47px -7px;
+}
+
+.social__link--google {
+  width: 15px;
+  height: 9px;
+  background-position: -169px -7px;
+}
+
+.social__link--twitter {
+  width: 11px;
+  height: 9px;
+  background-position: -288px -7px;
+}
+
+.social__link--mail {
+  width: 12px;
+  height: 9px;
+  background-position: -198px -7px;
+}
