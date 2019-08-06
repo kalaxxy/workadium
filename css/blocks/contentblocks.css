@@ -39,7 +39,7 @@
   overflow: hidden;
   border-radius: 50%;
   margin: 12px 25px 0 0;
-  background-image: url('/img/comment.jpg');
+  background-image: url('../../img/comment.jpg');
 }
 
 .contentblocks__desc {

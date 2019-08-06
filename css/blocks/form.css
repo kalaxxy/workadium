@@ -100,7 +100,7 @@
 .form__radio-input:checked + .form__radio-custom + .form__radio-text {
   color: #ec1e79;
   transition: .7s;
-} /*почему без форм__радио-кастом не работает */
+}
 
 .form__submit {
   padding: 16px 19px;
